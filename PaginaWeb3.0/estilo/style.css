@@ -1,0 +1,172 @@
+
+body{
+    background-color: #A2A378;
+    color: #E5F9DB;
+}
+aside{
+    background-color: #483838;
+}
+
+.header{
+    background-image: url(/PaginaWeb2.0/ver0.2/imagenes/otroFondoHormiga.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.logo {
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+}
+.logo:hover{
+    color: #000;
+}
+
+.logoImagen img{
+    width:max-content;
+}
+
+.MenuSup{
+    border-style: solid;
+    border-color: #000;
+    width: 100%;
+    display: flex;
+}
+.MenuSup a{
+    text-decoration: none;
+    display: inline-block;
+}
+.colorLista1{
+    background-color: #E5F9DB;
+    width: 20%;
+    text-align: center;
+    margin: 0 auto;
+}
+.colorLista1 a{
+    color: #A2A378;
+}
+.colorLista1 a:hover{
+    color: #000;
+}
+.colorLista2{
+    background-color: #A2A378;
+    width: 20%;
+    text-align: center;
+    margin: 0 auto;
+}
+.colorLista2 a{
+    color: #E5F9DB;
+}
+.colorLista2 a:hover{
+    color: #000;
+}
+/*
+.menuHori ul{
+    display: flex;
+    max-width: 1200px;
+    padding: 30;
+    margin-top: 250;
+    margin: 0 auto;
+    background-color: #A2A378;
+    border-style: solid;
+    border-radius: 25px;
+}
+.menuHori li {
+    width: 100%;
+    list-style-type: none;
+    margin: 0px 90px 0px 80px ;
+}
+
+.menuHori a {
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+}
+.menuHori a:hover{
+    color: #E5F9DB;
+}
+@media (max-width:1073px){
+    .menuHori li{
+        margin: 0px 40px 0px 40px;
+    }
+}
+@media (max-width:768px){
+    .menuHori li{
+        margin: 0px 10px 0px 10px;
+    }
+}
+*/
+
+.lateral{
+    float: left;
+    width: 20%;
+    background-color: #A2A378;
+    padding: 10px;
+}
+.lateral ul{
+    padding: 0;
+}
+.lateral li{
+    list-style: none;
+
+}
+.lateral a {
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+}
+@media (max-width:1073px){
+    .lateral {
+        float: none;
+        width: auto;
+    }
+}
+
+.info{
+    float: right;
+    width: 75%;
+    background-color: #A2A378;
+    padding: 10px;
+}
+
+@media (max-width:1073px){
+    .info{
+        float: none;
+        width: auto;
+    }
+}
+
+footer{
+    width: 100%;
+    float: left;
+    color: #D2D79F;
+    background-color: #483838;
+    bottom: 0px;
+    padding: 10px;
+}
+
+.menuFooter  ul{
+    display: flex;
+}
+.menuFooter li{
+    list-style-type: none;
+    color: #D2D79F;
+    padding: 0px 30px 0px 30px;
+}
+.menuFooter a {
+    color: #D2D79F;
+    display: inline-block;
+}
+
+@media (max-width:768px) {
+    .menuFooter ul{
+        display:list-item;
+        padding-left: 30%;
+    }
+}
+
+.imagenEspecies{
+    float: right;
+}

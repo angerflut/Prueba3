@@ -1,0 +1,117 @@
+body{
+    /*background-color: goldenrod;*/
+    background-image: url(fondoHojas.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    font-family: cursive;
+}
+
+h1{
+    color: darkgoldenrod;
+}
+
+img{
+    width: 200px;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+.imgInicio{
+    width: 500px;
+
+}
+
+.imagenDatos{
+    width: 200px;
+    float: right;
+    position:static;
+    margin: 30px 10px 1px 50px;
+    border-radius: 25px;
+}
+
+
+.Titulo{
+    padding: 50px 5px 10px 0px ;
+    border-style: solid;
+    border-radius: 25px;
+    margin-left: 0px;
+    text-align: left;
+    border-color: greenyellow;
+    color: greenyellow;
+    background-color: darkgoldenrod;
+
+}
+
+.logo{
+    float: left;
+    padding: 0px;
+    width: 90px;
+    margin: 10px 0px 0px 10px;
+    border-style: hidden;
+    border-color: black;
+    background-color:darkgoldenrod;
+}
+
+.body{
+    text-align: left;
+    padding: 5px 350px 10px 10px ;
+    border-style: solid;
+    border-radius: 25px;
+    margin-left: 225px;
+    margin-bottom: 10px;
+    background-color: greenyellow;
+    border-color: darkgoldenrod;
+}
+
+.bodyDatos{
+    text-align: left;
+    padding: 5px 10px 100px 10px ;
+    border-style: solid;
+    border-radius: 25px;
+    margin-left: 225px;
+    margin-bottom: 75px ;
+    background-color: greenyellow;
+    border-color: darkgoldenrod;
+}
+
+.bar1{
+    list-style-type:none;
+    padding: 5px 5px ;
+    margin: 0px;
+    position:fixed;
+    top: 150px;
+    left: 10px;
+    width: 210px;
+}
+
+.bar2{
+    list-style-type:none;
+    padding: 5px;
+    margin: 0px;
+    position:fixed;
+    top: 310px;
+    left: 10px;
+    width: 210px;
+}
+
+
+.li{
+    background-color: darkgoldenrod; 
+    border-style: solid  ;
+    border-radius: 20px;
+    border-color: greenyellow;
+    color: greenyellow;
+    padding: 5px 5px 5px 10px;
+    margin: 0;
+}
+
+.li a{
+    display: inline-block;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.li a:hover{
+    color: greenyellow;
+}
+
